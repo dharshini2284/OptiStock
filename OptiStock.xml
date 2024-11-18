@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\InventoryApp\dist\InventoryApp.jar</jar>
+  <outfile>D:\InventoryApp\OptiStock.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\InventoryApp\icon.ico</icon>
+  <classPath>
+    <mainClass>inventoryapp.LoginPage</mainClass>
+    <cp>lib/mysql-connector.jar</cp>
+    <cp>lib/mysql-connector-j-9.0.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jdk-22</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
